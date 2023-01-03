@@ -1,5 +1,6 @@
 {
 	"name": "svenpetersen/instagram2news",
+	"description": "TYPO3 Extension to import instagram posts as EXT:news articles",
 	"type": "typo3-cms-extension",
 	"authors": [
 		{
