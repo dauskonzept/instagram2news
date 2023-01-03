@@ -1,0 +1,14 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  SvenPetersen\Instagram2News\:
+    resource: '../Classes/*'
+
+  SvenPetersen\Instagram2News\Command\ImportPostsCommand:
+    tags:
+      - name: 'console.command'
+        command: 'instagram2news:import-posts'
+        description: 'Imports instagram posts for a given username as news entites'

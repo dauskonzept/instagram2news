@@ -1,0 +1,5 @@
+.idea
+.Build
+composer.lock
+/Tests/Functional/.phpunit.result.cache
+/Tests/Unit/.phpunit.result.cache
