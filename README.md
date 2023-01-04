@@ -46,7 +46,7 @@ This extension comes with a command to import (new) posts of a given instagram
 user.
 It is recommended to set this command up to run regularly - e.g. once a day.
 
-<pre>instagram2news:import:posts {username} {storagePid} [limit|25]</pre>
+<pre>instagram2news:import-posts {username} {storagePid} [limit|25]</pre>
 
 __Arguments:__
 
