@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace SvenPetersen\Instagram2News\Domain\Model;
 
-use GeorgRinger\News as GeorgRingerNews;
+use GeorgRinger\News\Domain\Model\News;
 
-class NewsInstagram extends GeorgRingerNews\Domain\Model\News
+class NewsInstagram extends News
 {
     /**
      * @var int
@@ -16,6 +16,8 @@ class NewsInstagram extends GeorgRingerNews\Domain\Model\News
     protected string $instagramId = '';
 
     protected string $postedBy = '';
+
+    protected string $mediaType = '';
 
     public function getInstagramId(): string
     {
@@ -37,6 +39,18 @@ class NewsInstagram extends GeorgRingerNews\Domain\Model\News
     public function setPostedBy(string $postedBy): self
     {
         $this->postedBy = $postedBy;
+
+        return $this;
+    }
+
+    public function getMediaType(): string
+    {
+        return $this->mediaType;
+    }
+
+    public function setMediaType(string $mediaType): self
+    {
+        $this->mediaType = $mediaType;
 
         return $this;
     }

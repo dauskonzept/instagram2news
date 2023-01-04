@@ -24,12 +24,20 @@ $fields = [
             'size' => 30,
         ],
     ],
+    'media_type' => [
+        'exclude' => 1,
+        'label' => 'Media type',
+        'config' => [
+            'type' => 'input',
+            'size' => 30,
+        ],
+    ],
 ];
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addFieldsToPalette(
     'tx_news_domain_model_news',
     'tx_instagram2news_fields',
-    'instagram_id, posted_by'
+    'instagram_id, posted_by, media_type'
 );
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tx_news_domain_model_news', $fields);
