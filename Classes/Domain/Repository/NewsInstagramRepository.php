@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace SvenPetersen\Instagram2News\Domain\Repository;
 
-use GeorgRinger\News as GeorgRingerNews;
+use GeorgRinger\News\Domain\Repository\NewsRepository as BaseRepository;
 use SvenPetersen\Instagram2News\Domain\Model\NewsInstagram;
 
-class NewsInstagramRepository extends GeorgRingerNews\Domain\Repository\NewsRepository
+class NewsInstagramRepository extends BaseRepository
 {
     public function findOneByInstagramId(string $instagramId): ?NewsInstagram
     {
