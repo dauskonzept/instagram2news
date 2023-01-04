@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace SvenPetersen\Instagram2News\Domain\Model;
 
-use GeorgRinger\News\Domain\Model\News as BaseNews;
+use GeorgRinger\News\Domain\Model\News;
 
-class NewsInstagram extends BaseNews
+class NewsInstagram extends News
 {
     /**
      * @var int
