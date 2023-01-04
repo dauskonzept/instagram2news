@@ -1,11 +1,15 @@
 {
-	"name": "svenpetersen/instagram2news",
+	"name": "dskzpt/instagram2news",
 	"description": "TYPO3 Extension to import instagram posts as EXT:news articles",
 	"type": "typo3-cms-extension",
 	"authors": [
 		{
+			"name": "Dauskonzept GmbH",
+			"email": "info@dauskonzept.de"
+		},
+		{
 			"name": "Sven Petersen",
-			"email": "sven_harders@gmx.de"
+			"email": "sp@dauskonzept.de"
 		}
 	],
 	"license": [
@@ -31,12 +35,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"SvenPetersen\\Instagram2News\\": "Classes/"
+			"DSKZPT\\Instagram2News\\": "Classes/"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"SvenPetersen\\Instagram2News\\Tests\\": "Tests/"
+			"DSKZPT\\Instagram2News\\Tests\\": "Tests/"
 		}
 	},
 	"config": {

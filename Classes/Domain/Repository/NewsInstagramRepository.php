@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace SvenPetersen\Instagram2News\Domain\Repository;
+namespace DSKZPT\Instagram2News\Domain\Repository;
 
-use SvenPetersen\Instagram2News\Domain\Model\NewsInstagram;
+use DSKZPT\Instagram2News\Domain\Model\NewsInstagram;
 
 class NewsInstagramRepository extends \GeorgRinger\News\Domain\Repository\NewsRepository
 {

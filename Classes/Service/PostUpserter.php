@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace SvenPetersen\Instagram2News\Service;
+namespace DSKZPT\Instagram2News\Service;
 
+use DSKZPT\Instagram2News\Domain\Model\NewsInstagram;
+use DSKZPT\Instagram2News\Domain\Repository\NewsInstagramRepository;
+use DSKZPT\Instagram2News\Event\NewsInstagram\NotPersistedEvent;
+use DSKZPT\Instagram2News\Event\NewsInstagram\PostPersistEvent;
+use DSKZPT\Instagram2News\Event\NewsInstagram\PrePersistEvent;
 use Psr\EventDispatcher\EventDispatcherInterface;
 use SvenPetersen\Instagram\Client\ApiClientInterface;
 use SvenPetersen\Instagram\Domain\Model\Dto\PostDTO;
 use SvenPetersen\Instagram\Domain\Model\Post;
 use SvenPetersen\Instagram\Service\EmojiRemover;
-use SvenPetersen\Instagram2News\Domain\Model\NewsInstagram;
-use SvenPetersen\Instagram2News\Domain\Repository\NewsInstagramRepository;
-use SvenPetersen\Instagram2News\Event\NewsInstagram\NotPersistedEvent;
-use SvenPetersen\Instagram2News\Event\NewsInstagram\PostPersistEvent;
-use SvenPetersen\Instagram2News\Event\NewsInstagram\PrePersistEvent;
 use TYPO3\CMS\Core\Configuration\ExtensionConfiguration;
 use TYPO3\CMS\Core\Core\Environment;
 use TYPO3\CMS\Core\Database\ConnectionPool;
