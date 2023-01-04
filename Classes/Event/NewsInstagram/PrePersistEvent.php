@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace SvenPetersen\Instagram2News\Event\NewsInstagram;
+namespace DSKZPT\Instagram2News\Event\NewsInstagram;
 
+use DSKZPT\Instagram2News\Domain\Model\NewsInstagram;
 use SvenPetersen\Instagram\Domain\Model\Dto\PostDTO;
-use SvenPetersen\Instagram2News\Domain\Model\NewsInstagram;
 
 class PrePersistEvent
 {

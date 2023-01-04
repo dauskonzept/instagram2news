@@ -1,11 +1,11 @@
 [![StandWithUkraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
 [![TYPO3 10](https://img.shields.io/badge/TYPO3-10-orange.svg)](https://get.typo3.org/version/10)
 [![TYPO3 11](https://img.shields.io/badge/TYPO3-11-orange.svg)](https://get.typo3.org/version/11)
-[![Latest Stable Version](http://poser.pugx.org/svenpetersen/instagram2news/v)](https://packagist.org/packages/svenpetersen/instagram2news)
-[![Total Downloads](http://poser.pugx.org/svenpetersen/instagram2news/downloads)](https://packagist.org/packages/svenpetersen/instagram2news)
-[![Latest Unstable Version](http://poser.pugx.org/svenpetersen/instagram2news/v/unstable)](https://packagist.org/packages/svenpetersen/instagram2news)
-[![License](http://poser.pugx.org/svenpetersen/instagram2news/license)](https://packagist.org/packages/svenpetersen/instagram2news)
-[![PHP Version Require](http://poser.pugx.org/svenpetersen/instagram2news/require/php)](https://packagist.org/packages/svenpetersen/instagram2news)
+[![Latest Stable Version](http://poser.pugx.org/dauskonzept/instagram2news/v)](https://packagist.org/packages/dauskonzept/instagram2news)
+[![Total Downloads](http://poser.pugx.org/dauskonzept/instagram2news/downloads)](https://packagist.org/packages/dauskonzept/instagram2news)
+[![Latest Unstable Version](http://poser.pugx.org/dauskonzept/instagram2news/v/unstable)](https://packagist.org/packages/dauskonzept/instagram2news)
+[![License](http://poser.pugx.org/dauskonzept/instagram2news/license)](https://packagist.org/packages/dauskonzept/instagram2news)
+[![PHP Version Require](http://poser.pugx.org/dauskonzept/instagram2news/require/php)](https://packagist.org/packages/dauskonzept/instagram2news)
 
 TYPO3 Extension "instagram2news"
 =================================
@@ -25,7 +25,7 @@ as [EXT:news](https://github.com/georgringer/news)
 
 ## Installation
 The recommended way to install the extension is by using [Composer](https://getcomposer.org/). In your Composer based TYPO3 project root, just do:
-<pre>composer require svenpetersen/instagram2news</pre>
+<pre>composer require dskzpt/instagram2news</pre>
 
 ## Setup
 1. todo

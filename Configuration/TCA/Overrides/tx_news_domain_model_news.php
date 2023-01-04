@@ -3,7 +3,7 @@
 defined('TYPO3') or die();
 
 $GLOBALS['TCA']['tx_news_domain_model_news']['columns']['type']['config']['items']['1672764382'] =
-    ['Instagram', 1672764382];
+    ['Instagram', 1672764382, 'actions-brand-instagram'];
 
 $GLOBALS['TCA']['tx_news_domain_model_news']['types']['1672764382'] = $GLOBALS['TCA']['tx_news_domain_model_news']['types']['0'];
 

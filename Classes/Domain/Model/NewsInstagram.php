@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SvenPetersen\Instagram2News\Domain\Model;
+namespace DSKZPT\Instagram2News\Domain\Model;
 
 use GeorgRinger\News\Domain\Model\News;
 

@@ -9,13 +9,13 @@ declare(strict_types=1);
  * LICENSE.txt file that was distributed with this source code.
  */
 
-namespace SvenPetersen\Instagram2News\Command;
+namespace DSKZPT\Instagram2News\Command;
 
+use DSKZPT\Instagram2News\Service\PostUpserter;
+use DSKZPT\Instagram2News\Service\SlugService;
 use SvenPetersen\Instagram\Domain\Model\Feed;
 use SvenPetersen\Instagram\Domain\Repository\FeedRepository;
 use SvenPetersen\Instagram\Factory\ApiClientFactoryInterface;
-use SvenPetersen\Instagram2News\Service\PostUpserter;
-use SvenPetersen\Instagram2News\Service\SlugService;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;

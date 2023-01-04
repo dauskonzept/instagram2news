@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SvenPetersen\Instagram2News\Service;
+namespace DSKZPT\Instagram2News\Service;
 
 use TYPO3\CMS\Core\Database\ConnectionPool;
 use TYPO3\CMS\Core\Database\Query\Restriction\DeletedRestriction;

@@ -4,10 +4,10 @@ services:
     autoconfigure: true
     public: false
 
-  SvenPetersen\Instagram2News\:
+  DSKZPT\Instagram2News\:
     resource: '../Classes/*'
 
-  SvenPetersen\Instagram2News\Command\ImportPostsCommand:
+  DSKZPT\Instagram2News\Command\ImportPostsCommand:
     tags:
       - name: 'console.command'
         command: 'instagram2news:import-posts'
