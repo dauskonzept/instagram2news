@@ -34,7 +34,7 @@ class ImportPostsCommand extends Command
     public function __construct(
         PostUpserter $postUpserter,
         FeedRepository $feedRepository,
-        ApiClientFactoryInterface $apiClientFactory,
+        ApiClientFactoryInterface $apiClientFactory
     ) {
         $this->apiClientFactory = $apiClientFactory;
         $this->feedRepository = $feedRepository;
