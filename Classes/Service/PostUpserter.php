@@ -70,8 +70,10 @@ class PostUpserter
         $newsItem->setBodytext($filteredText);
         $newsItem->setTeaser($filteredText);
         $newsItem->setPid($storagePid);
-        $newsItem->setInstagramId($dto->getId());
-        $newsItem->setPostedBy($apiClient->getFeed()->getUsername());
+        $newsItem
+            ->setInstagramId($dto->getId())
+            ->setPostedBy($apiClient->getFeed()->getUsername())
+            ->setMediaType($dto->getMediaType());
 
         /** @var \DateTimeImmutable $postedAt */
         $postedAt = $dto->getTimestamp();
@@ -89,13 +91,13 @@ class PostUpserter
         }
 
         $newsItem = $event->getNewsInstagram();
-        $isAlreadyImportedTweet = $newsItem->getUid() !== null;
+        $isAlreadyImported = $newsItem->getUid() !== null;
 
         $this->newsRepository->add($newsItem);
         $this->persistenceManager->persistAll();
 
         // Don't download posts media(s) again
-        if ($isAlreadyImportedTweet === true) {
+        if ($isAlreadyImported === true) {
             return $newsItem;
         }
 

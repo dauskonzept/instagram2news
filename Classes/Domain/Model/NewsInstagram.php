@@ -17,6 +17,8 @@ class NewsInstagram extends GeorgRingerNews\Domain\Model\News
 
     protected string $postedBy = '';
 
+    protected string $mediaType = '';
+
     public function getInstagramId(): string
     {
         return $this->instagramId;
@@ -37,6 +39,18 @@ class NewsInstagram extends GeorgRingerNews\Domain\Model\News
     public function setPostedBy(string $postedBy): self
     {
         $this->postedBy = $postedBy;
+
+        return $this;
+    }
+
+    public function getMediaType(): string
+    {
+        return $this->mediaType;
+    }
+
+    public function setMediaType(string $mediaType): self
+    {
+        $this->mediaType = $mediaType;
 
         return $this;
     }
