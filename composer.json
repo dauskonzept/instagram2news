@@ -5,7 +5,7 @@
 	"authors": [
 		{
 			"name": "Dauskonzept GmbH",
-			"email": "info@dauskonzept.de"
+			"email": "webentwicklung@dauskonzept.de"
 		},
 		{
 			"name": "Sven Petersen",
@@ -16,11 +16,11 @@
 		"GPL-2.0-or-later"
 	],
 	"require": {
-		"php": ">=7.4",
-		"svenpetersen/instagram": "^1.0",
-		"symfony/console": ">=5.0",
-		"typo3/cms-core": "^10.4 || ^11.5",
-		"typo3/cms-extbase": "^10.4 || ^11.5"
+		"georgringer/news": "^11.4",
+		"svenpetersen/instagram": "^2.0",
+		"symfony/console": ">=5.0 || >=6.0",
+		"typo3/cms-core": "^12.4",
+		"typo3/cms-extbase": "^12.4"
 	},
 	"suggest": {
 		"typo3/cms-scheduler": "To set up the cronjobs as tasks from within the backend"

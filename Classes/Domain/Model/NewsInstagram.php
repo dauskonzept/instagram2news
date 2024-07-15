@@ -8,10 +8,7 @@ use GeorgRinger\News\Domain\Model\News;
 
 class NewsInstagram extends News
 {
-    /**
-     * @var int
-     */
-    protected $_languageUid = -1;
+    protected ?int $_languageUid = -1;
 
     protected string $instagramId = '';
 
