@@ -1,7 +1,7 @@
 [![StandWithUkraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
-[![TYPO3 10](https://img.shields.io/badge/TYPO3-10-orange.svg)](https://get.typo3.org/version/10)
-[![TYPO3 11](https://img.shields.io/badge/TYPO3-11-orange.svg)](https://get.typo3.org/version/11)
-[![Latest Stable Version](http://poser.pugx.org/dskzpt/instagram2news/v)](https://packagist.org/packages/dskzpt/instagram2news) [![Total Downloads](http://poser.pugx.org/dskzpt/instagram2news/downloads)](https://packagist.org/packages/dskzpt/instagram2news) [![Latest Unstable Version](http://poser.pugx.org/dskzpt/instagram2news/v/unstable)](https://packagist.org/packages/dskzpt/instagram2news) [![License](http://poser.pugx.org/dskzpt/instagram2news/license)](https://packagist.org/packages/dskzpt/instagram2news) [![PHP Version Require](http://poser.pugx.org/dskzpt/instagram2news/require/php)](https://packagist.org/packages/dskzpt/instagram2news)
+[![TYPO3 11](https://img.shields.io/badge/TYPO3-12-orange.svg)](https://get.typo3.org/version/12)
+[![Latest Stable Version](http://poser.pugx.org/dskzpt/instagram2news/v)](https://packagist.org/packages/dskzpt/instagram2news) [![Total Downloads](http://poser.pugx.org/dskzpt/instagram2news/downloads)](https://packagist.org/packages/dskzpt/instagram2news)
+[![Latest Unstable Version](http://poser.pugx.org/dskzpt/instagram2news/v/unstable)](https://packagist.org/packages/dskzpt/instagram2news) [![License](http://poser.pugx.org/dskzpt/instagram2news/license)](https://packagist.org/packages/dskzpt/instagram2news)
 
 TYPO3 Extension "instagram2news"
 =================================
