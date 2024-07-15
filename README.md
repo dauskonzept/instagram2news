@@ -33,8 +33,8 @@ __Recommended__:
 ## Compatibility
 | Version | TYPO3       | PHP                  | Support/Development                  |
 |---------|-------------|----------------------|--------------------------------------|
-| 2.x     | 12.4        | >= 8.1.0 <= 8.3.99 ️ | Features, Bugfixes, Security Updates |
-| 1.x     | 10.4 - 11.5 | 7.4 - 8.0️           | Bugfixes                             |
+| 1.x     | 12.4        | >= 8.1.0 <= 8.3.99 ️ | Features, Bugfixes, Security Updates |
+| 0.x     | 10.4 - 11.5 | 7.4 - 8.0️           | Bugfixes                             |
 
 ## Funtionalities
 
