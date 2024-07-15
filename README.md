@@ -1,7 +1,5 @@
 [![StandWithUkraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
-[![TYPO3 11](https://img.shields.io/badge/TYPO3-12-orange.svg)](https://get.typo3.org/version/12)
-[![Latest Stable Version](http://poser.pugx.org/dskzpt/instagram2news/v)](https://packagist.org/packages/dskzpt/instagram2news) [![Total Downloads](http://poser.pugx.org/dskzpt/instagram2news/downloads)](https://packagist.org/packages/dskzpt/instagram2news)
-[![Latest Unstable Version](http://poser.pugx.org/dskzpt/instagram2news/v/unstable)](https://packagist.org/packages/dskzpt/instagram2news) [![License](http://poser.pugx.org/dskzpt/instagram2news/license)](https://packagist.org/packages/dskzpt/instagram2news)
+[![TYPO3 12](https://img.shields.io/badge/TYPO3-12-orange.svg)](https://get.typo3.org/version/12)
 
 TYPO3 Extension "instagram2news"
 =================================
@@ -33,8 +31,8 @@ __Recommended__:
 ## Compatibility
 | Version | TYPO3       | PHP                  | Support/Development                  |
 |---------|-------------|----------------------|--------------------------------------|
-| 2.x     | 12.4        | >= 8.1.0 <= 8.3.99 ️ | Features, Bugfixes, Security Updates |
-| 1.x     | 10.4 - 11.5 | 7.4 - 8.0️           | Bugfixes                             |
+| 1.x     | 12.4        | >= 8.1.0 <= 8.3.99 ️ | Features, Bugfixes, Security Updates |
+| 0.x     | 10.4 - 11.5 | 7.4 - 8.0️           | Bugfixes                             |
 
 ## Funtionalities
 
