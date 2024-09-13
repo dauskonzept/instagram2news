@@ -17,7 +17,7 @@
 	],
 	"require": {
 		"georgringer/news": "^11.4",
-		"svenpetersen/instagram": "^2.0",
+		"svenpetersen/instagram": "^2.0 || ^3.0",
 		"symfony/console": ">=5.0 || >=6.0",
 		"typo3/cms-core": "^12.4",
 		"typo3/cms-extbase": "^12.4"
