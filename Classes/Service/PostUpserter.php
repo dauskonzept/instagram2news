@@ -73,7 +73,8 @@ class PostUpserter
         $newsItem
             ->setInstagramId($dto->getId())
             ->setPostedBy($apiClient->getFeed()->getUsername())
-            ->setMediaType($dto->getMediaType());
+            ->setMediaType($dto->getMediaType())
+            ->setPermalink($dto->getPermalink());
 
         /** @var \DateTimeImmutable $postedAt */
         $postedAt = $dto->getTimestamp();
