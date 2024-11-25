@@ -32,12 +32,20 @@ $fields = [
             'size' => 30,
         ],
     ],
+    'permalink' => [
+        'exclude' => 1,
+        'label' => 'Permalink',
+        'config' => [
+            'type' => 'input',
+            'size' => 30,
+        ],
+    ],
 ];
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addFieldsToPalette(
     'tx_news_domain_model_news',
     'tx_instagram2news_fields',
-    'instagram_id, posted_by, media_type'
+    'instagram_id, posted_by, media_type, permalink'
 );
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tx_news_domain_model_news', $fields);

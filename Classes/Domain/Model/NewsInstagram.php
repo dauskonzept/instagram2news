@@ -16,6 +16,8 @@ class NewsInstagram extends News
 
     protected string $mediaType = '';
 
+    protected string $permalink = '';
+
     public function getInstagramId(): string
     {
         return $this->instagramId;
@@ -50,5 +52,15 @@ class NewsInstagram extends News
         $this->mediaType = $mediaType;
 
         return $this;
+    }
+
+    public function getPermalink(): string
+    {
+        return $this->permalink;
+    }
+
+    public function setPermalink(string $permalink): void
+    {
+        $this->permalink = $permalink;
     }
 }
